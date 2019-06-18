@@ -7,7 +7,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.drag{
+  border: 1px solid red;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,6 +19,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.grey{
+  height: 8rem; 
+  background-color: #ededed;
 }
 
 .App-link {
