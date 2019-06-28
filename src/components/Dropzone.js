@@ -23,7 +23,6 @@ function Ml5ImagePage(props) {
       setPic(pic);
       const classifier = await ml5.imageClassifier("MobileNet");
       const results = await classifier.predict(imageRef.current);
-      console.log(results);
       setLabel([
         ...label,
         ...[results[0].label, results[1].label, results[2].label]
@@ -45,7 +44,7 @@ function Ml5ImagePage(props) {
     <div>
       <div
         className="dropzone"
-        style={{ padding: 20, cursor: "pointer", backgroundColor: "#93E9C7" }}
+        style={{ padding: "20px", cursor: "pointer", backgroundColor: "#ededed" }}
       >
         <Dropzone onDrop={onDrop}>
           {({ getRootProps, getInputProps }) => (

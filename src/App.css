@@ -6,15 +6,21 @@
 }
 
 .heading{
-  height: 3.55rem;
+
   width: 100%;
-  border-bottom: 2px dashed #A15FFB;
+  position: relative;
 }
+
+ .intro{
+
+  
+ }
 header > div {
   width: 90%;
   margin: auto;
   display: flex;
-  height: 3.55rem;
+  justify-content: center;
+
 align-items: center;  
 }
 
@@ -25,17 +31,32 @@ footer > div {
 
 footer {
   height: 12rem;
-  background-color: #E8E8E8;
+  background-color: #0B132B;
   width: 100%;
+  padding-top: 1rem;
+  border-top: 7px solid #6fffe9;
 }
 h1{
-  color: #A15FFB;
-  font-family: caveat, serif;
-  margin-bottom: 1rem;
+
+  font-size: 3rem;
+  margin: 5rem 0;
  
+}
+
+.intro{
+  font-size: 1.5rem;
+  color: #fff5b2;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 .drag{
   border: 1px solid red;
+}
+
+.title{
+  color: #252525;
 }
 
 
@@ -52,12 +73,36 @@ h1{
 }
 
 
+.corner-ribbon{
+  width: 200px;
+  
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  background: #6fffe9;
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+
 .dropzone {
   width: 30rem;
   height: 10rem;
   border: 2px dotted #232324; 
   border-radius: .1rem;
-  margin: 4rem auto;
+  margin: 1rem  auto 4rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
