@@ -4,7 +4,7 @@
 
 Live link can be found here [Image classifier](https://ml5imageclassifier.netlify.com/).
 
-A project to experiemnt with Ml5.js image classification library - using react. 
+A project to experiemnt with the ml5.js image classification library - using react. 
 
 ### Setup 
 Run npm install to start project and npm start to run project locally. 
