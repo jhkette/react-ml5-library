@@ -8,9 +8,12 @@ import Intro from "./components/intro";
 function App() {
   return (
     <div className="App">
+      
+      <div>
       <Header />
       <Intro/>
       <Ml5ImagePage />
+      </div>
      
       <Footer />
     </div>
