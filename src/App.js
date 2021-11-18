@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import Ml5ImagePage from "./components/Dropzone";
 import Header from "./components/header";
