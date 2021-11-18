@@ -46,7 +46,7 @@ function Ml5ImagePage(props) {
         className="dropzone"
         style={{ padding: "20px", cursor: "pointer", backgroundColor: "#ededed" }}
       >
-        <Dropzone onDrop={onDrop}>
+        <Dropzone onDrop={onDrop} style={{borderRadius: "20px"}}>
           {({ getRootProps, getInputProps }) => (
             <section>
               <div {...getRootProps()}>
